@@ -1,0 +1,23 @@
+{
+  "name": "livemusicarchiveonsonos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bertique/LiveMusicArchiveOnSonos.git"
+  },
+  "author": "Michael Dick (b.michael.dick@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bertique/LiveMusicArchiveOnSonos/issues"
+  },
+  "homepage": "https://github.com/bertique/LiveMusicArchiveOnSonos#readme",
+  "dependencies": {
+    "node-soap": "^1.0.0",
+    "xml2js": "^0.4.19"
+  }
+}
