@@ -1,0 +1,13 @@
+{
+    "$schema": "http://json.schemastore.org/proxies",
+    "proxies": {
+        "Presentation map": {
+            "matchCondition": {
+                "route": "/static/presentationmap.xml"
+            },
+            "responseOverrides": {
+                "response.body": "Hello"
+            }
+        }
+    }
+}
