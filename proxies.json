@@ -5,7 +5,7 @@
             "matchCondition": {
                 "route": "/static/presentationMap.xml"
             },
-            "backendUri": "https://livemusicarchiveonsonos.azurewebsites.net/api/getStaticresources?filename=presentationMap.xml"
+            "backendUri": "https://%WEBSITE_HOSTNAME%/api/getStaticresources?filename=presentationMap.xml"
         }
     }
 }
