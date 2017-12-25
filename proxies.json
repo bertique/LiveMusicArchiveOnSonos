@@ -3,11 +3,9 @@
     "proxies": {
         "Presentation map": {
             "matchCondition": {
-                "route": "/static/presentationmap.xml"
+                "route": "/static/presentationMap.xml"
             },
-            "responseOverrides": {
-                "response.body": "Hello"
-            }
+            "backendUri": "/api/getStaticresources?filename=presentationMap.xml"
         }
     }
 }
