@@ -8,7 +8,7 @@ module.exports = function (context, req) {
     if (req.query.filename == 'presentationMap.xml'
         || req.query.filename == 'strings.xml'
         || req.query.filenmae == 'Sonos.wsdl') {
-            var xmlFileContent = fs.readFileSync(resourceFolder + '/' + req.query.filename, 'utf8');
+            var xmlFileContent = fs.readFileSync(__dirname + '/../' + resourceFolder + '/' + req.query.filename, 'utf8');
 
             context.res = {
                 status: 200, /* Defaults to 200 */
