@@ -6,6 +6,18 @@
                 "route": "/static/presentationMap.xml"
             },
             "backendUri": "https://%WEBSITE_HOSTNAME%/api/getStaticresources?filename=presentationMap.xml"
+        },
+        "Strings": {
+            "matchCondition": {
+                "route": "/static/strings.xml"
+            },
+            "backendUri": "https://%WEBSITE_HOSTNAME%/api/getStaticresources?filename=strings.xml"
+        }, 
+        "WSDL": {
+            "matchCondition": {
+                "route": "/soap?wsdl"
+            },
+            "backendUri": "https://%WEBSITE_HOSTNAME%/api/getStaticresources?filename=Sonos.wsdl"
         }
     }
 }
