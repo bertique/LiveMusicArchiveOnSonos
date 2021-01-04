@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/bertique/LiveMusicArchiveOnSonos#readme",
   "dependencies": {
-    "axios": "^0.17.1",
+    "axios": "^0.21.1",
     "xml2js": "^0.4.23"
   },
   "devDependencies": {}
